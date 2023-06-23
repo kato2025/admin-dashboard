@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Main dashboard container-->
+    <div class="container">
+        <!--Search profile containing user information and search-->
+        <div class="searchprofile">
+            <div class="search">
+                <img id="icon" src="./images/search.svg" alt="Search icon">
+                <input id="searchbox" type="text">
+            </div>
+            <div class="profile">
+                <img id="icon" src="./images/notification.svg" alt="Notification">
+                <img id="smalldp" src="./images/@drnamuene.png" alt="Profile picture">
+                <div class="profilename">Dr. Namuene</div>
+            </div>
+        </div>
+        <!--Feed heading containing user information and actions-->
+        <div class="feedheading">
+            <div class="userinfo">
+                <img id="bigdp" src="./images/@drnamuene.png" alt="Profile image">
+                <div class="welcome">
+                    <p id="greetings" style="font-size: 13px;">Hi there,</p>
+                    <p id="username" style="font-size: 22px;">Dr. Kato S. Namuene (@drnamuene)</p>
+                </div>
+            </div>
+            <div class="actions">
+                <button class="new">New</button>
+                <button class="upload">Upload</button>
+                <button class="share">Share</button>
+            </div>
+        </div>
+        <!--Sidebar containing developer information and management-->
+        <div class="sidebar">
+            <img id="dashboardicon" src="./images/siteLogo.png" alt="Site logo">
+            <div class="profilelinks">
+                <ul>
+                    <li>🏠 Home</li>
+                    <li>🎫 Profile</li>
+                    <li>💬 Messages</li>
+                    <li>🕒 History</li>
+                    <li>📑 Tasks</li>
+                    <li>👨‍👨‍👦‍👦 Communities</li>
+                </ul>
+            </div>
+            <div class="manage">
+                <ul>
+                    <li>⚙️ Settings</li>
+                    <li>❓ Support</li>
+                    <li>🛡️ Privacy</li>
+                </ul>
+            </div>
+        </div>
+        <div class="dashboardheadings">
+                <div>Your Projects</div>
+                <div>Announcements</div>
+        </div>
+        <!--Main content containing projects, announcements and trending-->
+        <div class="maincontent">
+            <div class="projects">
+                <div class="card">
+                    <div>
+                        <p class="cardtitle">HTML</p>
+                        <p class="cardtext">HTML, short for Hypertext Markup Language, is the standard markup language used for creating the structure and content of web pages.</p>
+                    </div>
+                    <div class="cardicons">
+                        <img id="icon" src="./images/starplus.svg" alt="Like">
+                        <img id="icon" src="./images/eyeplus.svg" alt="Comment">
+                        <img id="icon" src="./images/link.svg" alt="Share">
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <p class="cardtitle">CSS</p>
+                        <p class="cardtext">CSS, or Cascading Style Sheets, is a stylesheet language used for describing the presentation and layout of web pages written in HTML. Without CSS and HTML the web will not be what is it today.</p>
+                    </div>
+                    <div class="cardicons">
+                        <img id="icon" src="./images/starplus.svg" alt="Like">
+                        <img id="icon" src="./images/eyeplus.svg" alt="Comment">
+                        <img id="icon" src="./images/link.svg" alt="Share">
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <p class="cardtitle">JavaScript</p>
+                        <p class="cardtext">JavaScript is a versatile programming language that is primarily used to add interactivity and dynamic behavior to web pages.</p>
+                    </div>
+                    <div class="cardicons">
+                        <img id="icon" src="./images/starplus.svg" alt="Like">
+                        <img id="icon" src="./images/eyeplus.svg" alt="Comment">
+                        <img id="icon" src="./images/link.svg" alt="Share">
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                    <p class="cardtitle">ReactJS</p>
+                    <p class="cardtext">ReactJS, developed by Facebook, is a JavaScript library for building user interfaces. It enables developers to create reusable UI components that can be  rendered and updated using a virtual DOM.</p>
+                    </div>
+                    <div class="cardicons">
+                        <img id="icon" src="./images/starplus.svg" alt="Like">
+                        <img id="icon" src="./images/eyeplus.svg" alt="Comment">
+                        <img id="icon" src="./images/link.svg" alt="Share">
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <p class="cardtitle">Node.js</p>
+                        <p class="cardtext">Node.js is an open-source, server-side JavaScript runtime environment that allows developers to run JavaScript code outside of a web browser.</p>
+                    </div>
+                    <div class="cardicons">
+                        <img id="icon" src="./images/starplus.svg" alt="Like">
+                        <img id="icon" src="./images/eyeplus.svg" alt="Comment">
+                        <img id="icon" src="./images/link.svg" alt="Share">
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <p class="cardtitle">MangoDB</p>
+                        <p class="cardtext">MongoDB is a popular NoSQL database system that stores data in a flexible, document-oriented format. It uses a JSON-like structure called BSON (Binary JSON) to store data records, allowing for high scalability and performance.</p>
+                    </div>
+                    <div class="cardicons">
+                        <img id="icon" src="./images/starplus.svg" alt="Like">
+                        <img id="icon" src="./images/eyeplus.svg" alt="Comment">
+                        <img id="icon" src="./images/link.svg" alt="Share">
+                    </div>
+                </div>
+            </div>
+            <div class="news">
+                <div class="announcements">
+                    <div class="announce">
+                        <p class="announcementtitle">JavaScript Development</p>
+                        <p class="announcementtext">JavaScript Frameworks Webiner (July 15-17, 2023, San Francisco) and Advanced JS webiner (August 5-6, 2023)</p><br>
+                        <hr>
+                        <br>
+                    </div>
+                    <div class="announce">
+                        <p class="announcementtitle">Node.js Conference</p>
+                        <p class="announcementtext">Node.js Global Conference (September 20-22, 2023, London) and Building Scalable Node.js APIs (October 8, 2023, Seattle)</p><br>
+                        <hr>
+                        <br>
+                    </div>
+                    <div class="announce">
+                        <p class="announcementtitle">MongoDB  Webiners</p>
+                        <p class="announcementtext">MongoDB World (November 12-14, 2023, NYC) and MongoDB Data Modeling Workshop (December 2, 2023, Online)</p>
+                    </div>
+                </div>
+                <div class="commingup">
+                    <div class="trendingheading">Trending</div>
+                    <div class="trending">
+                        <div class="trendingimages">
+                        </div>
+                        <div class="trendingprofiles">
+                            <div class="kingeprofile">
+                                <div>
+                                    <img id="smalldp" src="./images/@kinge.jpg" alt="Kinge Molonge">
+                                </div>
+                                <div class="pinfo">
+                                    <p>@kinge</p>
+                                    <p>Web Developer</p>
+                                </div>
+                            </div>
+                            <div class="namueneprofile">
+                                <img id="smalldp" src="./images/@drnamuene.png" alt="Dr. Namuene">
+                                <div class="pinfo">
+                                    <p>@drnamuene</p>
+                                    <p>Database Expert</p>
+                                </div>
+                            </div>
+                            <div class="enjemaprofile">
+                                <img id="smalldp" src="./images/@enjema.jpg" alt="Enjema Nganje">
+                                <div class="pinfo">
+                                    <p>@enjema</p>
+                                    <p>HTML/CSS Expert</p>
+                                </div>
+                            </div>
+                            <div class="jemeaprofile">
+                                <img id="smalldp" src="./images/@jemea.jpg" alt="Jemea Njonje">
+                                <div class="pinfo">
+                                    <p>@jemea</p>
+                                    <p>JavaScript Expert</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+             </div>
+            </div>
+        </div>
+        <!--Footer-->
+        <div class="footer">© 2023, NamueneTec. Thank you Odin Project</div>
+    </div>
+</body>
+</html>
